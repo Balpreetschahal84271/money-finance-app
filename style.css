@@ -1,0 +1,326 @@
+* {
+    margin: 5px;
+    padding: 2px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Clash Display', sans-serif;
+    max-width: 100vw;
+    --background_color: #ffffff;
+}
+
+:root {
+    --primary_color: #FF5555;
+    --text_sec-color: grey;
+    --background_color: #ffffff;
+
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1090px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#home-button-link {
+    color: var(--primary_color);
+    font-weight: 800;
+}
+
+.nav-text {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+
+    transition: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#nav-button-box {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 60px;
+    width: 10rem;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+
+    transition: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+}
+.nav-buttons {
+    transition: all;
+    transition-duration: 500ms;
+}
+
+/* -----------------------------------------------Properties container 1------------------------------ */
+
+.nav-text:hover {
+    transform: scale(1.3);
+}
+
+#nav-button-box:hover {
+    background-color: #ffffff;
+    color: black;
+}
+.nav-buttons:hover{
+    transform: scale(1.1);
+}
+
+.heading:hover {
+    color: var(--primary_color);
+}
+
+#left-grid-button:hover {
+    transform: scale(1.1);
+    color: black;
+    background-color: #ffffff;
+}
+#iphone1:hover {
+    transform: scale(1.1);
+    rotate: 14deg;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+#grid-main-container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    max-width: 100;
+}
+
+.left-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.heading {
+    color: black;
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 618px;
+
+    transition: all;
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.left-grid-paragraph {
+    color: var(--text_sec-color);
+    font-size: 18px;
+    max-width: 638px;
+    font-weight: 500;
+}
+
+#left-grid-button {
+    color: white;
+    background-color: black;
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    border-radius: 5px;
+
+    transition: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+
+.left-grid-subsection_3 {
+    display: flex;
+    align-items: center;
+    max-width: 374px;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+
+.left-grid-image_below {
+    width: 569px;
+    height: 357.74px;
+
+}
+
+
+.ellipse-container {
+  position: relative;
+  width: 300px; /* Adjust the width of the container */
+  height: 200px; /* Adjust the height of the container */
+}
+
+.ellipse {
+  position: absolute;
+  border: 2px solid black; /* Border color */
+  background-color: white; /* Background color */
+  border-radius: 50%; /* Make it a circle */
+  
+    width: 383.17px;
+    height: 551.56px;
+
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    transform: rotate(-45deg);
+}
+
+
+.ellipse:nth-child(1) {
+   width: 383.17px;
+   height: 551.56px;
+   top: 6px;
+   left: 120px;
+   gap: 0px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+
+}
+
+.ellipse:nth-child(2) {
+    width: 383.17px;
+    height: 551.56px;
+    top: 25px;
+    left: 80px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+.ellipse:nth-child(3) {
+    width: 383.17px;
+    height: 551.56px;
+    top: 35px;
+    left:50px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+#video-button {
+
+    color: black;
+    background-color: #ffffff;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+
+    transition: all;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.iphone-images {
+    position: absolute;
+    margin-left: 150px;
+
+    transition: all;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#iphone1{
+    top: 80px;
+    left: 600px;
+    z-index: 3;
+}
+
+#iphone2{
+    top: 170px;
+    left: 725px;
+    z-index: 2;
+}
+
+#iphone3{
+    top: 220px;
+    left: 850px;
+    z-index: 1;
+}
+
+.left-grid-content {
+    text-align: left;
+}
+
+
+
+
+/*--------------------------------------------- second container css ------------------------------*/
+
+.left-grid-image-premium-feature-container{
+    margin-top: 0px;
+} 
+
+
+/* ellipse */
+/* 
+pending */
+
+
+
+
+.Premium-features-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10rem auto;
+    padding: 10px;
+    
+
+}
+
+.right-grid-feature-container {
+    padding: 10px;
+}
+.sub-headings:h5{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#feature-heading {
+    text-align: left;
+}
+#features {
+    color: var(--primary_color);
+    font-size: 18px;
+    font-weight: 500;
+}
+i {
+    color: var(--primary_color);
+}
+#feature-sub-headings{
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}

@@ -1,0 +1,52 @@
+
+.ellipse2-container {
+  position: absolute;
+  border: 2px solid black; /* Border color */
+  background-color: white; /* Background color */
+  border-radius: 50%; /* Make it a circle */
+  
+    width: 383.17px;
+    height: 551.56px;
+
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    transform: rotate(-45deg);
+}
+
+
+.ellipse2:nth-child(1) {
+   width: 383.17px;
+   height: 551.56px;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+   z-index: 3;
+
+}
+
+.ellipse2:nth-child(2) {
+    width: 383.17px;
+    height: 551.56px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    z-index: 2;
+
+
+}
+.ellipse2:nth-child(3) {
+    width: 383.17px;
+    height: 551.56px;
+    /* top: 35px;
+    left:50px; */
+    margin-top: 10px;
+    margin-left: 100px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    z-index: 1;
+
+} 
